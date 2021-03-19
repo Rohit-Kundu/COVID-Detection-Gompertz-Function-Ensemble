@@ -16,6 +16,11 @@ def getfile(filename):
             labels.append(0)
         for i in range(369):
             labels.append(1)
+    if 'Harvard' in filename.split('_'):
+        for i in range(650):
+            labels.append(0)
+        for i in range(601):
+            labels.append(1)
     labels = np.asarray(labels)
     return df,labels
 
