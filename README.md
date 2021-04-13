@@ -27,4 +27,4 @@ Required Directory Structure:
 
 ```
 
-Run: `python gompertz_ensemble.py`
+Run: `python main.py`
