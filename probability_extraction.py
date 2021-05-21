@@ -154,16 +154,16 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25,model_name
     model.load_state_dict(best_model_wts)
     return model
 
-model = models.wide_resnet50_2(pretrained = True) #squeezenet1_1
+model = models.vgg11(pretrained = True)
 
-num_ftrs = model.fc.in_features  ##for wideresnet-50-2
-#num_ftrs = model.classifier[0].in_features  ## for vgg11
+#num_ftrs = model.fc.in_features  ##for wideresnet-50-2
+num_ftrs = model.classifier[0].in_features  ## for vgg11
 
 print("Number of features: "+str(num_ftrs))
 # Here the size of each output sample is set to 2.
 
-model.fc = nn.Linear(num_ftrs, num_classes) ## for wideresnet-50-2
-#model.classifier = nn.Linear(num_ftrs, num_classes) ## for vgg11
+#model.fc = nn.Linear(num_ftrs, num_classes) ## for wideresnet-50-2
+model.classifier = nn.Linear(num_ftrs, num_classes) ## for vgg11
 model = model.to(device)
 
 criterion = nn.CrossEntropyLoss()
