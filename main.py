@@ -14,6 +14,7 @@ p1,labels = getfile(root+"vgg11")
 p2,_ = getfile(root+"wideresnet50-2")
 p3,_ = getfile(root+"inception")
 
+#Check utils_ensemble.py to see the "labels" distribution. Change according to the dataset used. By default it has been set for the SARS-COV-2 dataset.
 
 #Calculate Gompertz Function Ensemble
 top = args.topk #top 'k' classes
