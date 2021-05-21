@@ -37,5 +37,5 @@ Next, to run the ensemble model on the base learners run the following:
 
 `python main.py --data_directory "sars-cov-2_csv/"`
 
-## References:
+#### References:
 [1] Soares, E. & Angelov, P. A large dataset of real patients CT scans for COVID-19 identification.Harv. DataverseDOI:10.7910/DVN/SZDUQX (2020).
