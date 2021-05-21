@@ -10,7 +10,7 @@ To install the dependencies, run the following using the command prompt:
 `pip install -r requirements.txt`
 
 ## Running the code on the COVID data
-In this repository we take the example of the SARS-COV-2 dataset used in the paper to run the ensemble codes.
+In this repository we take the example of the SARS-COV-2 dataset [1] used in the paper to run the ensemble codes.
 
 Download the dataset from [Kaggle](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset) and split it into train and validation sets in 80-20 ratio.
 
@@ -36,3 +36,6 @@ To extract the probabilities on the validation set using the different models ru
 Next, to run the ensemble model on the base learners run the following:
 
 `python main.py --data_directory "sars-cov-2_csv/"`
+
+References:
+[1] Soares, E. & Angelov, P. A large dataset of real patients CT scans for COVID-19 identification.Harv. DataverseDOI:10.7910/DVN/SZDUQX (2020).
