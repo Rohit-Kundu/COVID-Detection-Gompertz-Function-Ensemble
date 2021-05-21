@@ -6,7 +6,9 @@ from sklearn.preprocessing import label_binarize
 
 def getfile(filename):
     root=''
-    file = root+filename+'.csv'
+    file = root+filename
+    if '.csv' not in filename:
+        file = file+'.csv'
     df = pd.read_csv(file,header=None)
     df = np.asarray(df)
 
