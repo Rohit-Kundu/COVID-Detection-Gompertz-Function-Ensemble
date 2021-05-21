@@ -10,6 +10,7 @@ To install the dependencies, run the following using the command prompt:
 `pip install -r requirements.txt`
 
 ## Running the code on the COVID data
+In this repository we take the example of the SARS-COV-2 dataset used in the paper to run the ensemble codes.
 
 Download the dataset from [Kaggle](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset) and split it into train and validation sets in 80-20 ratio.
 
@@ -25,5 +26,8 @@ Required Directory Structure:
 +-- utils_ensemble.py
 
 ```
+To extract the probabilities on the validation set using the different models run `probability_extraction.py` and save the files in a folder. As an example the probabilities extracted on the SARS-COV-2 dataset has been saved in the folder named `sars-cov-2_csv/`.
 
-Run: `python main.py`
+Next, to run the ensemble model on the base learners run the following:
+
+`python main.py --data_directory "sars-cov-2_csv/"`
