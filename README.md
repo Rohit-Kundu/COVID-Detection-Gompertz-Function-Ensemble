@@ -21,9 +21,8 @@ Required Directory Structure:
 |   +-- .
 |   +-- train
 |   +-- val
-+-- gompertz_ensemble.py
++-- main.py
 +-- utils_ensemble.py
-+-- ensemble.py
 
 ```
 
