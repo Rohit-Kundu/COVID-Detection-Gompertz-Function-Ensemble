@@ -10,9 +10,9 @@ root = args.data_directory
 if not root[-1]=='/':
     root=root+'/'
 
-p1,labels = getfile(root+"Kaggle_vgg11")
-p2,_ = getfile(root+"Kaggle_wideresnet")
-p3,_ = getfile(root+"Kaggle_inception")
+p1,labels = getfile(root+"vgg11")
+p2,_ = getfile(root+"wideresnet50-2")
+p3,_ = getfile(root+"inception")
 
 
 #Calculate Gompertz Function Ensemble
