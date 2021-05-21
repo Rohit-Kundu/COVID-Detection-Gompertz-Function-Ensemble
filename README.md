@@ -17,12 +17,17 @@ Download the dataset from [Kaggle](https://www.kaggle.com/plameneduardo/sarscov2
 Required Directory Structure:
 ```
 
-.
 +-- data
 |   +-- .
 |   +-- train
 |   +-- val
++-- sar-cov-2_csv
+|   +--.
+|   +-- inception.csv
+|   +-- vgg11.csv
+|   +-- wideresnet50-2.csv
 +-- main.py
++-- probability_extraction
 +-- utils_ensemble.py
 
 ```
