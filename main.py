@@ -7,6 +7,9 @@ parser.add_argument('--topk', type=int, default = 2, help='Top-k number of class
 args = parser.parse_args()
 
 root = args.data_directory
+if not root[-1]=='/':
+    root=root+'/'
+
 p1,labels = getfile(root+"Kaggle_vgg11")
 p2,_ = getfile(root+"Kaggle_wideresnet")
 p3,_ = getfile(root+"Kaggle_inception")
