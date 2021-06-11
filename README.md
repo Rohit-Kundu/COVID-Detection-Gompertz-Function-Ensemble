@@ -22,7 +22,7 @@ Required Directory Structure:
 |   +-- train
 |   +-- val
 +-- sar-cov-2_csv
-|   +--.
+|   +-- .
 |   +-- inception.csv
 |   +-- vgg11.csv
 |   +-- wideresnet50-2.csv
