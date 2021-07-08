@@ -1,5 +1,5 @@
 # COVID-Detection-Gompertz-Function-Ensemble
-This is the official implementation of the paper titled "Fuzzy Rank-based Fusion of CNN Models using Gompertz Function for Screening COVID-19 CT-Scans" accepted for publication in "Nature- Scientific Reports".
+This is the official implementation of the paper titled ["Fuzzy Rank-based Fusion of CNN Models using Gompertz Function for Screening COVID-19 CT-Scans"](https://doi.org/10.1038/s41598-021-93658-y) published in "Nature- Scientific Reports".
 
 ## Requirements
 
