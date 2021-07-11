@@ -13,10 +13,9 @@ def getfile(filename):
     df = np.asarray(df)
 
     labels=[]
-    for i in range(376):
-        labels.append(0)
-    for i in range(369):
-        labels.append(1)
+    for i, c in enumerate(os.listdir(root+"data/val/")):
+        for j in range(len(os.listdir(root+"data/val/"+c))):
+            labels.append(i)
     labels = np.asarray(labels)
     return df,labels
 
