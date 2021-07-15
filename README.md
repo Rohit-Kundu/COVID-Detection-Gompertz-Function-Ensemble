@@ -43,18 +43,14 @@ Next, to run the ensemble model on the base learners run the following:
 # Citation
 If you find this repository useful, please cite our work as follows:
 ```
-@article{manna2021cervical,
-  author={Manna, Ankur and Kundu, Rohit and Kaplun, Dmitrii and Sinitca, Aleksandr and Sarkar, Ram},
-  title={A fuzzy rank-based ensemble of CNN models for classification of cervical cytology},
+@article{kundu2021fuzzy,
+  title={Fuzzy rank-based fusion of CNN models using Gompertz function for screening COVID-19 CT-scans},
+  author={Kundu, Rohit and Basak, Hritam and Singh, Pawan Kumar and Ahmadian, Ali and Ferrara, Massimiliano and Sarkar, Ram},
   journal={Scientific Reports},
-  year={2021},
-  month={Jul},
-  day={15},
   volume={11},
   number={1},
-  pages={14538},
-  issn={2045-2322},
-  doi={10.1038/s41598-021-93783-8},
-  url={https://doi.org/10.1038/s41598-021-93783-8}
+  pages={1--12},
+  year={2021},
+  publisher={Nature Publishing Group}
 }
 ```
