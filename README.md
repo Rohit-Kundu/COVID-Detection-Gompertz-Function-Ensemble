@@ -39,3 +39,22 @@ Next, to run the ensemble model on the base learners run the following:
 
 #### References:
 [1] Soares, E., Angelov, P., Biaso, S., Froes, M. H. & Abe, D. K. Sars-cov-2 ct-scan dataset: A large dataset of real patients ct scans for sars-cov-2 identification. medRxiv (2020).
+
+# Citation
+If you find this repository useful, please cite our work as follows:
+```
+@article{manna2021cervical,
+  author={Manna, Ankur and Kundu, Rohit and Kaplun, Dmitrii and Sinitca, Aleksandr and Sarkar, Ram},
+  title={A fuzzy rank-based ensemble of CNN models for classification of cervical cytology},
+  journal={Scientific Reports},
+  year={2021},
+  month={Jul},
+  day={15},
+  volume={11},
+  number={1},
+  pages={14538},
+  issn={2045-2322},
+  doi={10.1038/s41598-021-93783-8},
+  url={https://doi.org/10.1038/s41598-021-93783-8}
+}
+```
